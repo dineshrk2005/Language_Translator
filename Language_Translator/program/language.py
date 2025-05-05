@@ -9,17 +9,17 @@ class LanguageTranslatorApp:
         master.geometry("800x600")
         master.configure(bg="#f0f4f7")
 
-        # Title label
+       
         self.title_label = tk.Label(master, text="🌐 Language Translator", font=("Arial", 24, "bold"), bg="#f0f4f7", fg="#333")
         self.title_label.pack(pady=20)
 
-        # Input label and text box
+        
         self.label1 = tk.Label(master, text="Enter text to translate:", font=("Arial", 14), bg="#f0f4f7")
         self.label1.pack()
         self.entry = tk.Text(master, height=6, width=80, font=("Arial", 12))
         self.entry.pack(pady=10)
 
-        # Language selection
+        
         self.label2 = tk.Label(master, text="Select language to translate to:", font=("Arial", 14), bg="#f0f4f7")
         self.label2.pack(pady=5)
 
@@ -52,11 +52,11 @@ class LanguageTranslatorApp:
         self.language_dropdown = ttk.Combobox(master, textvariable=self.language_var, values=list(self.languages.keys()), font=("Arial", 12))
         self.language_dropdown.pack(pady=10)
 
-        # Translate button
+        
         self.translate_button = tk.Button(master, text="Translate", font=("Arial", 14), bg="#007acc", fg="white", command=self.translate)
         self.translate_button.pack(pady=10)
 
-        # Output label and display area
+        
         self.label3 = tk.Label(master, text="Translated text:", font=("Arial", 14), bg="#f0f4f7")
         self.label3.pack()
         self.translation_output = tk.Text(master, height=6, width=80, font=("Arial", 12), bg="#e8f0fe")
