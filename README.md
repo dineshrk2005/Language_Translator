@@ -44,16 +44,18 @@ This is a simple and user-friendly **Language Translator Desktop App** built usi
    git clone https://github.com/yourusername/language-translator-app.git
    cd language-translator-app
 2.Install dependencies:
+
     pip install -r requirements.txt
 3.Run the app:
+
     python translator_app.py
    
 4.✨ Example Usage
     Type any sentence in the top textbox.
 
-    Select your desired language from the dropdown.
+   Select your desired language from the dropdown.
 
-    Click Translate to see the translated text appear below.
+   Click Translate to see the translated text appear below.
 
 📬 Feedback & Contributions
 Feel free to fork the repository, submit issues, or make pull requests to improve the functionality or UI. Your contributions are welcome!
