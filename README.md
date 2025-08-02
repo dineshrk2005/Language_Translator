@@ -6,7 +6,7 @@ This is a simple and user-friendly **Language Translator Desktop App** built usi
 
 ## 🖼️ App Preview
 
-![App Preview](App_IMG.png)
+![App Preview](https://github.com/dineshrk2005/Language_Translator/blob/main/Language_Translator/image/App_IMG.png?raw=true)
 
 ---
 
